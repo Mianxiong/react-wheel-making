@@ -1,10 +1,13 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+// 本质是导出了一个对象
 module.exports = {
-    mode: 'production',
     entry: {
         // 入口
         index: './lib/index.tsx'
+    },
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
     },
     output: {
         path: path.resolve(__dirname, 'dist/lib'),
@@ -15,11 +18,5 @@ module.exports = {
         rules: [
             {test: /\.tsx?$/, loader: "awesome-typescript-loader"}
         ]
-    },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Webpack App',
-            template: 'index.html'
-        })
-    ]
+    }
 }
