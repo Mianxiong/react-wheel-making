@@ -1,11 +1,25 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@babel/generator": [
+        "node_modules/@types/babel__generator"
+      ],
+      "@babel/template": [
+        "node_modules/@types/babel__template"
+      ],
+      "@babel/traverse": [
+        "node_modules/@types/babel__traverse"
+      ]
+    },
     "outDir": "dist",
     "declaration": true,
     "baseUrl": ".",
     "module": "esnext",
     "target": "es5",
-    "lib": ["es6", "dom"],
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "sourceMap": true,
     "jsx": "react",
     "moduleResolution": "node",
@@ -23,6 +37,7 @@
     "noUnusedLocals": true
   },
   "include": [
+    "lib/**/*"
   ],
   "exclude": [
     "node_modules",
