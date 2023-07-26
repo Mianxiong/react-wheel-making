@@ -62,7 +62,7 @@ typings/
 .next
 
 # Intellij
-.idea/
+/.idea
 *.iml
 *.ims
 

@@ -1,6 +1,6 @@
-// console.log('hi')
-import React from 'react';
 import ReactDOM from 'react-dom';
+import React from 'react';
+import Icon from './icon'
 
-console.log(React)
-console.log(ReactDOM)
+
+ReactDOM.render(<div><Icon name="wechat"></Icon></div>, document.body)
