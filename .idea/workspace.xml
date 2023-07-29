@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723f7478-0eda-4950-8cc4-284016a28101" name="Changes" comment="npm init 创建 package.json">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="723f7478-0eda-4950-8cc4-284016a28101" name="Changes" comment="feature: 修改node版本" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,22 +24,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.JavaScript",
-    "ts.external.directory.path": "E:\\2023web_front_end\\myProjects\\react-wheel-making\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/2023web_front_end/myProjects/react-wheel-making/lib/icon&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\2023web_front_end\\myProjects\\react-wheel-making\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2023web_front_end\myProjects\react-wheel-making\lib\icons" />
+      <recent name="E:\2023web_front_end\myProjects\react-wheel-making\icons" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2023web_front_end\myProjects\react-wheel-making\lib\icon" />
+      <recent name="E:\2023web_front_end\myProjects\react-wheel-making\lib" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +62,19 @@
       <workItem from="1690015023190" duration="340000" />
       <workItem from="1690015379538" duration="3391000" />
       <workItem from="1690022041846" duration="358000" />
+      <workItem from="1690036186166" duration="3195000" />
+      <workItem from="1690086681579" duration="6099000" />
+      <workItem from="1690120610340" duration="748000" />
+      <workItem from="1690268239595" duration="1754000" />
+      <workItem from="1690344277599" duration="2278000" />
+      <workItem from="1690352734846" duration="92000" />
+      <workItem from="1690370693161" duration="9723000" />
+      <workItem from="1690435864800" duration="572000" />
+      <workItem from="1690453255819" duration="2674000" />
+      <workItem from="1690463459885" duration="1199000" />
+      <workItem from="1690508477959" duration="2488000" />
+      <workItem from="1690511457041" duration="11124000" />
+      <workItem from="1690529510753" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="npm init 创建 package.json">
       <option name="closed" value="true" />
@@ -59,16 +84,83 @@
       <option name="project" value="LOCAL" />
       <updated>1690015857990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="安装了React 和 ReactDOM">
+      <option name="closed" value="true" />
+      <created>1690036328778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690036328778</updated>
+    </task>
+    <task id="LOCAL-00003" summary="webpack.config 分成了两份， index.d.ts 移到 dist 目录里了">
+      <option name="closed" value="true" />
+      <created>1690087756304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690087756304</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feature: 创建 icon 组件">
+      <option name="closed" value="true" />
+      <created>1690370964841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690370964841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feature: 自动加载所有 icons/*.svg 文件">
+      <option name="closed" value="true" />
+      <created>1690377988950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690377988950</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feature: 添加css">
+      <option name="closed" value="true" />
+      <created>1690380485935</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690380485935</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feature: 创建icon目录并进行icon测试">
+      <option name="closed" value="true" />
+      <created>1690515651594</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690515651594</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feature: add ci config">
+      <option name="closed" value="true" />
+      <created>1690520697322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690520697322</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feature: add jest-junit">
+      <option name="closed" value="true" />
+      <created>1690522084973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690522084973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feature: 修改node版本">
+      <option name="closed" value="true" />
+      <created>1690522478083</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690522478083</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/lib/index.d.ts" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -83,6 +175,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm init 创建 package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm init 创建 package.json" />
+    <MESSAGE value="安装了React 和 ReactDOM" />
+    <MESSAGE value="webpack.config 分成了两份， index.d.ts 移到 dist 目录里了" />
+    <MESSAGE value="feature: 创建 icon 组件" />
+    <MESSAGE value="feature: 自动加载所有 icons/*.svg 文件" />
+    <MESSAGE value="feature: 添加css" />
+    <MESSAGE value="feature: 创建icon目录并进行icon测试" />
+    <MESSAGE value="feature: add ci config" />
+    <MESSAGE value="feature: add jest-junit" />
+    <MESSAGE value="feature: 修改node版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: 修改node版本" />
   </component>
 </project>
